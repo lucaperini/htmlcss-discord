@@ -12,19 +12,6 @@ clearfix::after{
     clear: both;
 }
 
-
-main {
-    width:100%;
-    height:200px;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    
-}
-
-header{
-    padding:20px;
-}
-
 /* UTILITY */
 .relative{
     position:relative;
@@ -33,70 +20,143 @@ header{
 .container{
     width:90%;
     margin:0 auto;
+    
 }
 
 .float-sx{
     float:left;
 }
 
+.float-dx{
+    float:right;
+}
+
+.btn-large {
+    border-radius:15px;
+    padding: 8px 20px;
+    border:none;
+}
+
 /* FINE UTILITY */
 
 body{
     font-family: 'Whitney', sans-serif;
-}
-
-nav{
-    width: calc(60% - 30px);
-    margin: 0.5rem 15px;
     
     
 }
 
-header nav ul li{
+h1{
+    font-size:3rem;
+    color:white;
+    
+}
+
+header{
+    
+    margin-top:20px;
+    
+}
+
+nav{ 
+    
+    margin: 0.5rem 4rem;
+    
+
+}
+
+nav ul li{
     display:inline;
     color:white;
-    text-decoration:none;
-    padding-right:20px;
-    
+    text-decoration: none;
+    padding-right:30px;
     
 }
-
-header nav ul{
-    text-align:center;
-    vertical-align:middle;
-   
-
+/* inizio sezione jumbo */
+section.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:1700px;
 }
-
+/* contenuti header */
 .logo{
-    height:100%;
-    float:left;
-    width:20%;
-    
-   
+    width:25%;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
-.btn-small{
+.jumbo-text{
+    position:absolute;
+    top:15%;
+    left:31%;
     
-    height:100%;
-    float:right;
+}
+
+.jumbo-text p{
+    position:absolute;
+    top:100px;
+    width:750px;
+    text-align:center;
+    color:white;
+    font-size: 1.2rem;
+    line-height:24px;
+    transform:translate(-10%);
+}
+
+.jumbo-buttons{
+    margin-top:11%;
+}
+
+.login-btn {
+    
+    text-align:center;
+    margin-top:5px;
+    background-color: white;
+    padding: 8px 10px;
+    border:none;
+    border-radius:15px;
+}
+
+.jumbo-btn-sx{
+    margin-right:30px;
     background-color:white;
+    
+    
+}
+
+.jumbo-btn-dx{
+    background-color: rgb(29, 26, 26);
+    color:white;
+    padding: 10px 22px;
+}
+/* fine sezione jumbo */
+
+
+section.first-hero{
+    background-color: white;
+    width:100%;
+    border-color: 5px solid black;
+    
+}
+
+
+.first-hero-img{
+    width: 50%;
+    
+}
+
+.first-hero-text h1{
     color:black;
-    padding: 6px 8px 6px 8px;
-    border-radius: 15px;
-    
+    text-align:left;
+    width:350px;
+    line-height:4rem;
 }
 
-.login{
-    
-    width:20%;
-    
+.first-hero-text p{
+    width:350px;
+    line-height:2rem;
+    margin-right:100px;
 }
-
-
-
-
-
-
-
 
