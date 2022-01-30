@@ -37,18 +37,30 @@ clearfix::after{
     border:none;
 }
 
+.title h1{
+    color:black;
+    text-align:left;
+    width:350px;
+    line-height:4rem;
+}
+
+.description p{
+    width:350px;
+    line-height:2rem;
+    margin-right:100px;
+    margin-top:20px;
+    text-align:left;
+} 
+
 /* FINE UTILITY */
 
 body{
     font-family: 'Whitney', sans-serif;
-    
-    
 }
 
 h1{
     font-size:3rem;
     color:white;
-    
 }
 
 nav{ 
@@ -60,25 +72,14 @@ nav ul li{
     color:white;
     text-decoration: none;
     padding-right:30px;
-    
 }
 
+/* inizio sezione jumbo */
 
 .logo{
     width:25%;
     display: inline-block;
     vertical-align: middle;
-
-}
-
-
-/* inizio sezione jumbo */
-section.jumbo{
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width:100%;
-    height:650px;
 }
 
 
@@ -88,7 +89,6 @@ section.jumbo{
     top:15%;
     left:31%;
     width:65%;
-    
 }
 
 .jumbo-text p{
@@ -107,7 +107,6 @@ section.jumbo{
 }
 
 .login-btn {
-    
     text-align:center;
     margin-top:5px;
     background-color: white;
@@ -119,8 +118,6 @@ section.jumbo{
 .jumbo-btn-sx{
     margin-right:30px;
     background-color:white;
-    
-    
 }
 
 .jumbo-btn-dx{
@@ -128,25 +125,35 @@ section.jumbo{
     color:white;
     padding: 10px 22px;
 }
+
+section.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height:650px;
+}
+
 /* fine sezione jumbo */
 
-/* inizio prima sezione canali tematici  */
+
+
+/* sezione canali tematici */
+
+.first-hero-content{
+    padding-top:100px;
+    
+}
+
 .first-hero-img{
-    width: 80%;
+    width:80%;
     left:7%;
     position:absolute;
 }
 
-
-.first-hero-content{
-    padding-bottom:200px;
-}
-
 .first-hero-text{
-    position:absolute;
-    right:7%;
+    margin-right:80px;
 }
-
 
 .first-hero-text h1{
     color:black;
@@ -159,15 +166,51 @@ section.jumbo{
     width:350px;
     line-height:2rem;
     margin-right:100px;
-}
+    margin-top:20px;
+    text-align:left;
+} 
 
 section.first-hero{
-    background-color: white;
     width:100%;
-    border-color: 5px solid black;
-    
+    height:700px;
 }
-/* fine prima sezione canali tematici  */
 
+/* sezione chat vocali */ 
 
+.second-hero-img{
+    width:50%;
+    left:45%;
+    position:absolute;
+}
 
+.second-hero-text{
+    margin-top:20px;
+}
+
+.second-hero-text h1{
+    color:black;
+    text-align:left;
+    width:350px;
+    line-height:4rem;
+}
+
+.second-hero-text p{
+    width: 300px;
+    line-height:2rem;
+    margin-right:100px;
+    margin-top:20px;
+    text-align:left;
+} 
+
+section.second-hero{
+    background-color: rgb(246, 246, 246);
+    min-height:600px;
+    height:600px;
+    padding:50px;
+}
+
+/* sezione community*/
+
+.third-hero-content{
+    padding-top: 80px;
+}
