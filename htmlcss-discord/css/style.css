@@ -51,17 +51,8 @@ h1{
     
 }
 
-header{
-    
-    margin-top:20px;
-    
-}
-
 nav{ 
-    
     margin: 0.5rem 4rem;
-    
-
 }
 
 nav ul li{
@@ -71,15 +62,8 @@ nav ul li{
     padding-right:30px;
     
 }
-/* inizio sezione jumbo */
-section.jumbo{
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width:100%;
-    height:1700px;
-}
-/* contenuti header */
+
+
 .logo{
     width:25%;
     display: inline-block;
@@ -87,10 +71,23 @@ section.jumbo{
 
 }
 
+
+/* inizio sezione jumbo */
+section.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:650px;
+}
+
+
+
 .jumbo-text{
     position:absolute;
     top:15%;
     left:31%;
+    width:65%;
     
 }
 
@@ -106,7 +103,7 @@ section.jumbo{
 }
 
 .jumbo-buttons{
-    margin-top:11%;
+    margin-top:15%;
 }
 
 .login-btn {
@@ -133,19 +130,23 @@ section.jumbo{
 }
 /* fine sezione jumbo */
 
-
-section.first-hero{
-    background-color: white;
-    width:100%;
-    border-color: 5px solid black;
-    
-}
-
-
+/* inizio prima sezione canali tematici  */
 .first-hero-img{
-    width: 50%;
-    
+    width: 80%;
+    left:7%;
+    position:absolute;
 }
+
+
+.first-hero-content{
+    padding-bottom:200px;
+}
+
+.first-hero-text{
+    position:absolute;
+    right:7%;
+}
+
 
 .first-hero-text h1{
     color:black;
@@ -159,4 +160,14 @@ section.first-hero{
     line-height:2rem;
     margin-right:100px;
 }
+
+section.first-hero{
+    background-color: white;
+    width:100%;
+    border-color: 5px solid black;
+    
+}
+/* fine prima sezione canali tematici  */
+
+
 
